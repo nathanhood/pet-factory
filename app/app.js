@@ -3,12 +3,12 @@
 var dbname = process.env.DBNAME;
 var port = process.env.PORT || 4000;
 
-var traceur        = require('traceur');
-var express        = require('express');
+var traceur        = require('traceur');// these are node modules
+var express        = require('express');// dependencies defined inside of package.json
 var less           = require('express-less');
 var morgan         = require('morgan');
 var bodyParser     = require('body-parser');
-var initMongo      = traceur.require(__dirname + '/lib/init-mongo.js');
+var initMongo      = traceur.require(__dirname + '/lib/init-mongo.js');//compiles
 var initRoutes     = traceur.require(__dirname + '/lib/init-routes.js');
 
 var app = express();

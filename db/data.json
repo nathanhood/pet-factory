@@ -1,0 +1,10 @@
+{"name":"boxer", "age":3, "gender":"male", "species":"horse", "color":"black", "photo": "horse.jpg"}
+{"name":"napoleon", "age":10, "gender":"male", "species":"pig", "color":"pink", "photo": "pig.jpg"}
+{"name":"snowball", "age":7, "gender":"male", "species":"pig", "color":"pink", "photo": "pig.jpg"}
+{"name":"old major", "age":25, "gender":"male", "species":"cow", "color":"white", "photo": "cow.jpg"}
+{"name":"squealer", "age":6, "gender":"male", "species":"pig", "color":"white", "photo": "pig.jpg"}
+{"name":"general", "age":20, "gender":"female", "species":"horse", "color":"white", "photo": "horse.jpg"}
+{"name":"sally", "age":9, "gender":"female", "species":"cow", "color":"brown", "photo": "cow.jpg"}
+{"name":"fido", "age":4, "gender":"male", "species":"horse", "color":"black", "photo": "horse.jpg"}
+{"name":"lester", "age":12, "gender":"male", "species":"horse", "color":"yellow", "photo": "horse.jpg"}
+{"name":"cheryl", "age":8, "gender":"male", "species":"cow", "color":"brown", "photo": "cow.jpg"}

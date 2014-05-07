@@ -5,7 +5,19 @@ html
     title= title
     link(href='/css/buttons.css', rel='stylesheet')
     link(href='/less/app.css', rel='stylesheet')
-  body
+  body(style='background-image: url(/img/' + background + ');')
+    nav
+      span.left-button
+        a.button.glow(href='/') Home
+      span
+        a.button.glow(href='/about') About
+      span
+        a.button.glow(href='/contact') Contact
+      span
+        a.button.glow(href='/pets') Pets
+      span
+        h1.head Pet Factory
+
     block content
 
     script(src='/js/vendor/jquery-2.1.1.js')

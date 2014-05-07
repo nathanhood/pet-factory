@@ -1,0 +1,20 @@
+extends ../shared/template
+
+block content
+  h1 pets
+
+  #controls
+    a.button.button-circle(href='/pets/new') New Pet
+
+  #pets
+    each pet in pets
+      .pet
+        a.pet-name(href='/pets/new')= pet.name
+        #animal-info
+          .species= pet.species
+          .gender gender: #{pet.gender}
+          .age age: #{pet.age}
+        img.pet-pic(src='/img/' + pet.photo)
+        .delete
+          form(action='/pets/#{pet._id}/delete', method='POST')
+            button Delete
